@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab1</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+
+        #conatiner {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .gallery {
+            float: left;
+            width: 150px;
+            padding: 20px;
+            margin: 20px;
+            border: 2px red;
+        }
+        .gallery img{
+
+            width: 150px;
+            height: 150px;
+        }
+
+        .gallery:hover{
+            cursor: pointer;
+            border-radius: 25px;
+            box-shadow: 10px -10px gray;
+            border: 1px solid red;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>List of images</h1>
+    <div id="container">
+        <div class="gallery">
+            <div class=""description>Cap</div>
+            <a href="images/cap.png" alt="Pic of Cap">
+                <img src="images/cap.png" alt="Pic of a CAP" width="250" height="250">
+            </a>
+        </div>
+        <div class="gallery">
+            <div class=""description>Football</div>
+            <a href="images/football.png" alt="Pic of Football">
+                <img src="images/football.png" alt="Pic of a football" width="250" height="250">
+            </a>
+        </div>
+        <div class="gallery">
+            <div class=""description>Shoes</div>
+            <a href="images/shoes.png" alt="Pic of Football">
+                <img src="images/shoes.png" alt="Pic of a football" width="250" height="250">
+            </a>
+        </div>
+        <div class="gallery">
+            <div class=""description>Wallet</div>
+            <a href="images/wallet.png" alt="Pic of Football">
+                <img src="images/wallet.png" alt="Pic of a football" width="250" height="250">
+            </a>
+        </div>
+
+        <div class="gallery">
+            <div class=""description>Sneaker</div>
+            <a href="images/image4.png" alt="Pic of Sneaker">
+                <img src="images/image4.png" alt="Pic of a Sneaker" width="250" height="250">
+            </a>
+        </div>
+    </div>
+</body>
+</html> 
